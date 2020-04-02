@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+	<title>Bootstrap 4</title>
+	<style>
+    
+
+
+        
+       
+ @media (max-width: 992px) {
+.navbar-nav{
+    font-size: 12px;
+    padding-right: 33px;
+     }
+.navbar .btn{
+       padding-left: 0px;
+       padding-right: 0px;  
+     }
+   }
+        
+@media (max-width: 768px) {
+.navbar .button{
+    display: inline-block;
+    margin-left: 464px;
+    margin-top: 8px;
+     }
+.navbar .btn{
+    margin-right: 2px;
+    display: inline-block;
+     }
+   }       
+ @media (max-width: 576px) {
+ .container .title{
+    padding-top: 30px;
+    font-size: 30px
+                
+            }
+    .title:before{
+    content: '';
+    background: #A317B9;
+    height: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title:after{
+    content: '';
+    background: #A317B9;
+    height: 9px;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50PX;
+    display: block;
+    transform: translatey(19px);
+}
+.social-icons img{
+    width: 40px;
+    transition: 0.5s;
+}
+.promo-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0px;
+}       
+.navbar-nav{
+    color: aliceblue !important;
+    font-weight: 600;
+    padding-right: 30px;
+} 
+.navbar .button{
+    display: inline-block;
+    margin-left: 270px;
+    margin-top: 8px
+     }
+.navbar .btn{
+    display: inline-block;
+     }
+   }
+ @media (max-width: 375px) {
+.navbar .button{
+    display: inline-block;
+    margin-left: 66px;
+    margin-top: 8px
+     }
+.navbar .btn{
+    display: inline-block;
+    margin-left: 4px
+     }  
+        }
+    </style>
+</head>
+<body>
+   <section id="nav-bar">
+   
+	   <nav class="navbar navbar-expand-lg navbar-light">
+	   
+  <a class="navbar-brand" href="#"><h4><img src="img/hasib%20logo.png">MD HASIB KHAN</h4></a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars"></i>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+         
+          <li class="nav-item">
+              <a class="nav-link" href="#top">HOME</a>
+          </li>
+          
+          <li class="nav-item">
+              <a class="nav-link" href="#services">SERVICES</a>
+          </li>
+          
+          <li class="nav-item">
+              <a class="nav-link" href="#about-us">ABOUT US</a>
+          </li>
+          
+           <li class="nav-item">
+              <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+          </li>
+          
+          <li class="nav-item">
+              <a class="nav-link" href="#footer">CONTACT</a>
+          </li>
+          
+      </ul>
+       <div  class="button mr-1">
+    <form>
+        <input type="text" placeholder="Search">
+    </form>
+    </div>
+    <button class="btn btn-primary mr-4 px-4">
+        Search
+    </button>
+  </div>
+</nav>
+   </section>
+    
+<!................banner section..................>
+   
+   <section id="banner">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-6">
+                   <p class="promo-title">THIS IS THE RESPONSIVE WEBSITE </p>
+                   <P>I WILL CREAT YOUR WEBSITE PLEASE HIRE ME </P>
+                   <a href="2"><img src="img/play.png" class="play-btn">Watch The video</a>
+                   
+               </div>
+               <div class="col-md-6 text-center">
+                   <img src="img/peopls.png" class="img-fluid">
+               </div>
+           </div>
+       </div>
+       
+     <img src=" https://uradi.me/assets/index/svg/wave-parallax-01.svg" class="bottom-img">
+     
+   </section>
+   <!...........Service Section...........>
+   
+   
+   <section id="services ">
+      
+       <div class="container text-center">
+          <h1 class="title">WHAT WE DO ?</h1>
+           <div class="row text-center">
+               <div class="col-md-4 service">
+                   <img src="img/fb.png" class="service-img">
+                   <h4>THIS MY NEW WEBSITE</h4>
+                   <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam vitae.</P>
+               </div>
+                <div class="col-md-4">
+                   <img src="img/in.png" class="service-img">
+                   <h4>THIS MY NEW WEBSITE</h4>
+                   <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam vitae.</P>
+               </div>
+                <div class="col-md-4">
+                   <img src="img/wt.png" class="service-img">
+                   <h4>THIS MY NEW WEBSITE</h4>
+                   <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam vitae.</P>
+               </div>
+           </div>
+           <button type="button" class="btn btn-primary my-4">All Services</button>
+       </div>
+
+   </section>
+   <!.........................About US..............>
+   <section class="about-us">
+       <div class="container text-center">
+           <h1 class="title text-center">WHY CHOOSE US?</h1>
+            <div class="row">
+                <div class="col-md-6 about-us">
+                    <p class="about-title">Why we're different</p>
+                     <ul>
+                         <li>Lorem ipsum dolor sit amet, consectetur</li>
+                         <li>Lorem ipsum dolor sit amet, consectetur</li>
+                         <li>Lorem ipsum dolor sit amet, consectetur</li>
+                         <li>Lorem ipsum dolor sit amet, consectetur</li>
+                         <li>Lorem ipsum dolor sit amet, consectetur</li>
+                         <li>Lorem ipsum dolor sit amet, consectetur</li>
+                         <li>Lorem ipsum dolor sit amet, consectetur</li>
+                     </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/peopls.png" class="img-fluid">
+                </div>"
+            </div>
+       </div>
+
+   </section>
+   <!....................testimonials..................>
+   <div id="testimonials">
+       
+       <div class="container">
+            <h1 class="title text-center">WHAT CLAINTS SAY</h1>
+            <div class="row">
+                <div class="col-md-5 testimonials">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quasi voluptatem iusto necessitatibus omnis similique et enim.</p>
+                    <img src="img/h.jpg">
+                    <p class="user-details"><b>HASIB</b><br>Co-Founder xyz</p>
+                </div>
+                <div class="col-md-5 testimonials">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quasi voluptatem iusto necessitatibus omnis similique et enim.</p>
+                    <img src="img/B.jpg">
+                    <p class="user-details"><b>BAKER</b><br>Director at xyz</p>
+                </div>
+            </div>
+       </div>
+        </div>
+       <!.............social media section............>
+        <section>
+            
+            <div id="social-media">
+                <div class="container text-center">
+                    <p>FIND US ON SOCIAL MEDIA</p>
+                    <div class="social-icons">
+                        <a href="2"><img src="img/fb.png"></a>
+                        <a href="2"><img src="img/wt.png"></a>
+                        <a href="2"><img src="img/fb.png"></a>
+                        <a href="2"><img src="img/in.png"></a>
+                        <a href="2"><img src="img/fb.png"></a>
+                        <a href="2"><img src="img/in.png"></a>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </section>
+        <!.............footer section................>
+        <section id="footer">
+            <img src="https://uradi.me/assets/index/svg/wave-parallax-01.svg" class="footer-img">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 footer-box">
+                    <img src="img/hasib%20logo.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum incidunt aliquid natus veniam voluptatibus ea dicta optio accusamus amet, illo!</p>
+                    </div>
+                    <div class="col-md-4 footer-box">
+                      <p><b>CONTACT US</b></p>
+                      
+                      <P><i class="fa fa-map-marker"></i>Shymoli,Dhaka</P>
+                      
+                       <P> <i class="fa fa-phone"></i>+08801763437759</P>
+                       
+                        <P> <i class="fa fa-phone"></i>email:mdhasibkhan6765@gmail.com</P>
+                    </div>
+                    <div class="col-md-4 footer-box">
+                      <p><b>SUBSCRIBE NEWSLETTER</b></p>
+                      <input type="email" class="form-control" placeholder=" your email">
+                      <button type="button" class="btn btn-primary">suscribe</button>
+                   </div>
+                
+                
+            </div>
+                <hr>
+                <p class="copyright">© hasib khan</p>
+                </div>
+        </section>
+       <!.............smoth scrol............>
+       
+       <script src="smoth-scroll.js"> </script>
+       
+       <script>
+           	var scroll = new SmoothScroll('a[href*="#"]');
+       </script>
+       
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
